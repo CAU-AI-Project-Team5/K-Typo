@@ -6,5 +6,10 @@
 
 ---
 ### Typo variation (Typo idx description)
-- 1 : ...
-- 2 : ...
+- 1 : introduce_typo
+- 2 : drop_jongsung
+- 3 : repeat_char
+- 4 : merge_words
+- 5 : swap_parts
+
+grammar_error는 일단 보류하겠습니다.
