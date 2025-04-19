@@ -1,0 +1,81 @@
+{"question":"x, y가세 부등식 y ≤ x+3, y ≤-4x+3, y ≥ 0을 만족할 때, x+y의 최댓값을 M, 최솟값을 m이라하면 M-m의 값은?","answer":2,"A":"4","B":"6","C":"8","D":"10","Human Accuracy":0.0,"Category":"Math"}
+{"question":"닫힌 구간 [-2, 3]에서 함수 f(x) = -x3+ 3x2 - 6의최댓값을 M, 최솟값을 m이라 할 때,M+n의 값은?","answer":3,"A":"4","B":"6","C":"8","D":"10","Human Accuracy":0.0,"Category":"Math"}
+{"question":"부등식 x2+y2≤1이 나타내는 영역이 부등식 y≤x+m이 나타내는영역에 포함될 때, 실수 m의최솟값은?","answer":3,"A":"-√3","B":"-√2","C":"√2","D":"√3","Human Accuracy":0.0,"Category":"Math"}
+{"question":"서로 다른 두개의 주사위를 동시에 던질 때,두 눈의 합이 4 이상이될 확률은?","answer":4,"A":"1\/4","B":"5\/12","C":"2\/3","D":"11\/12","Human Accuracy":0.0,"Category":"Math"}
+{"question":"7a + 5b =6ab을 만족하는 두 양수 a, b의 곱 ab의 최솟값보다작거나같은 자연수의 개수는?","answer":2,"A":"2","B":"3","C":"4","D":"5","Human Accuracy":0.0,"Category":"Math"}
+{"question":"부등식2[x]2-5[x]+2＜0의 해가 α≤x≤β일 때, α+β의값은? (단, [x]는 x보다 크지 않은 최대의정수이다.)","answer":1,"A":"3","B":"4","C":"5","D":"6","Human Accuracy":1.0,"Category":"Math"}
+{"question":"실수 전체에서 정의된 함수y=f(x)는  라 정의되고, 다항식 g(x)는  , g(0)=2, 그리고 합성함수 (g∘f)(x)는 실수전체에서 연속임을 만족한다 하자. 이때g(1)를 구하면?","answer":2,"A":"-3","B":"-1","C":"1","D":"3","Human Accuracy":0.0,"Category":"Math"}
+{"question":"두함수 f(x)=x3+3x2+x,g(x)=3x3-11x에 대하여, g(x)를 y축의 방향으로 α만큼 평행이동 시켜 f(x)와 서로 다른두 점에서만 만나도록 하는 모든 α의 합은?","answer":2,"A":"-15","B":"-13","C":"-5","D":"0","Human Accuracy":0.0,"Category":"Math"}
+{"question":"다항식 f(x)를 (x-1)(x-2)(x-3)으로 나누었을 때의 나머지는 x2+x+1 이다.다항식 f(6x)를 6x2-5x+1 로 나누었을 때의 나머지를 ax+b라 할 때, a-b의값은? (단, a, b는 상수이다.)","answer":3,"A":"31","B":"36","C":"41","D":"46","Human Accuracy":0.0,"Category":"Math"}
+{"question":"x의 다항식 P(x)에 대하여 (x8-1)P(x)=x11+ax3+b가 모든 실수 x에 대하여 성립할 때, a-b의값은?(단, a, b는상수이다.)","answer":3,"A":"-3","B":"-2","C":"-1","D":"0","Human Accuracy":0.0,"Category":"Math"}
+{"question":"원 x2+y2=1을 x축, y축의방향으로 각각 –1, -2만큼 평행이동시킨 후, 다시 x축에 대하여대칭이동시킨 원의 중심의 좌표를 (a ,b)라할 때, b-a의 값은?","answer":4,"A":"0","B":"1","C":"2","D":"3","Human Accuracy":0.0,"Category":"Math"}
+{"question":"실수전체의 집합에서연속인 함수f(x)에 대하여 (x+1)f(x)=x2+3x+a가 성립할 때, f(1)의 값은? (단, a는 상수이다.)","answer":3,"A":"1","B":"2","C":"3","D":"4","Human Accuracy":0.0,"Category":"Math"}
+{"question":"곡선 y=2x3-x-1위의 점 (1, 0)에서 접선의 방정식이 y=ax+b일 때, a-b의값은? (단, a, b는상수이다.)","answer":4,"A":"7","B":"8","C":"9","D":"10","Human Accuracy":0.0,"Category":"Math"}
+{"question":"원점을 출발하여 수직선 위를 움직이는 점 P의 t초 후의 속도 v(t)가 v(t)=8-t3이다.점 P가 원점을 출발하여 다시 원점을지날때까지 움직인 거리는?","answer":1,"A":"24","B":"25","C":"26","D":"27","Human Accuracy":1.0,"Category":"Math"}
+{"question":"전체집합 U의 임의의 두 부분집합 A, B에 대하여, 집합 A∩(A∪Bc)c과 같은집합은?(단, ø는공집합이다.)","answer":1,"A":"ø","B":"A","C":"Ac","D":"U","Human Accuracy":1.0,"Category":"Math"}
+{"question":"A경찰청에 근무하는 경찰들을 대상으로 야구와 축구에대한 선호도를조사한 결과,야구를 좋아하는 경찰이 전체 경찰의 50%, 야구를 좋아하는 남자 경찰이 전체 경찰의 40%였다. A경찰청에서 야구를 좋아하는 경찰 한 명을 뽑았을 때, 그 경찰이 남자 경찰일 확률은?","answer":4,"A":"1\/5","B":"2\/5","C":"3\/5","D":"4\/5","Human Accuracy":0.0,"Category":"Math"}
+{"question":"함수f(x)=3x-1과 g(x)에 대하여 (g∘f)(x)=x일 때,g(5)값은?","answer":1,"A":"2","B":"3","C":"4","D":"5","Human Accuracy":0.9,"Category":"Math"}
+{"question":"a1=1, a22, an+1·an-1=an(n=2, 3,…)으로 정의되는 수열{an}에 대하여a1+a2+a3+…+a18의 값은?","answer":4,"A":"18","B":"19","C":"20","D":"21","Human Accuracy":0.0,"Category":"Math"}
+{"question":"전체집합 U의두 부분집합 A,B에 대하여 연산 ◉를 A◉B=(A∪B)∩(A∩B)c로 정의할 때, 다음 중 옳지 않은것은?","answer":3,"A":"A ◉ A = ø","B":"B ◉ ø = B","C":"B ◉ U = ø","D":"A ◉ B = Ac ◉ Bc","Human Accuracy":0.0,"Category":"Math"}
+{"question":"직선(2k-1)x+(k+1)y+2-k=0 이 k의값에 관계없이 정점을 지날 때,이 정점의 좌표는?","answer":3,"A":"(-1, -1)","B":"(-1, 1)","C":"(1, -1)","D":"(1, 1)","Human Accuracy":0.0,"Category":"Math"}
+{"question":"직각삼각형 ABC에 대하여 (sin2A + sin2B +sin2C) - (cos2A +cos2B +cos2C)의 값은?","answer":4,"A":"-2","B":"-1","C":"0","D":"1","Human Accuracy":0.0,"Category":"Math"}
+{"question":"서로다른두개의 주사위를 동시에 던져서나오는 두 눈의 수의 합을 k라고 할 때, ik=1일 확률은? (단, i=√-1)","answer":1,"A":"1\/4","B":"1\/3","C":"5\/12","D":"1\/2","Human Accuracy":0.7692,"Category":"Math"}
+{"question":"부등식 log2k≤ log4(5k+6) 를 만족하는 모든 정수k의개수는?","answer":2,"A":"4","B":"6","C":"8","D":"10","Human Accuracy":0.0,"Category":"Math"}
+{"question":"곡선 y=x2+a와 원점에서 이 곡선에그은두 접선으로 둘러싸인도형의 넓이는?","answer":4,"A":"10\/3","B":"4","C":"14\/3","D":"16\/3","Human Accuracy":0.0,"Category":"Math"}
+{"question":"한 개의주사위를 2번던져서 나온 눈의 수를 차례로 a,b라 하자. a+b≥10일때, a=6일 확률은?","answer":1,"A":"1\/2","B":"1\/3","C":"1\/4","D":"1\/5","Human Accuracy":0.8889,"Category":"Math"}
+{"question":"주머니에 1,2,3,4의 숫자가 하나씩 적혀있는 4개의흰 공과 5,6,7의 숫자가 하나씩 적혀있는 3개의 검은 공이 들어있다. 이 주머니에서 임의로 꺼낸 3개의 공에적힌 수의 합이짝수일 때, 꺼낸 3개의 공 중에서 흰 공의 개수가 2개 이상일 확률은?","answer":4,"A":"9\/19","B":"10\/19","C":"11\/19","D":"12\/19","Human Accuracy":0.0,"Category":"Math"}
+{"question":"1+i가 x에 대한이차방정식 x2-2x+a=0의 한근일 때, 실수 α의 값은?(단, i=√-1)","answer":4,"A":"-1","B":"0","C":"1","D":"2","Human Accuracy":0.0667,"Category":"Math"}
+{"question":"10a=3√40, 1000b=400인두 실수 a,b에대하여 b-a의 값은?","answer":2,"A":"1\/4","B":"1\/3","C":"1\/2","D":"1","Human Accuracy":0.0,"Category":"Math"}
+{"question":"f(0)≠0인다항함수 f(x)에대하여  라 하자. F′(0)=f′(1)일 때,f(1)\/f(0)의 값은?","answer":2,"A":"5\/6","B":"2\/3","C":"1\/2","D":"1\/3","Human Accuracy":0.0,"Category":"Math"}
+{"question":"다항식f(x)=x3+ax2-5x+a를x-2로 나눈 나머지가 8일 때, 상수 a의값은?","answer":2,"A":"1","B":"2","C":"3","D":"4","Human Accuracy":0.2,"Category":"Math"}
+{"question":"이차방정식 f(x)=0의두 근의합은 8이고, 곱은 3일때, 이차방정식 f(2x+1)=0의 두 근의 곱은?","answer":2,"A":"-3","B":"-1","C":"1","D":"3","Human Accuracy":0.0,"Category":"Math"}
+{"question":"함수 f(x)=x3+ax2-(1+2a)x+a에 대하여 y=f(x)의그래프는 실수a의 값에 관계없이 항상 점 P를 지난다. 곡선 y=f(x) 위의 점 P에서의 접선의 방정식을 y=mx+n이라 할 때, m-n의 값은? (단, m,n 은 상수)","answer":3,"A":"-8","B":"-4","C":"4","D":"8","Human Accuracy":0.0,"Category":"Math"}
+{"question":"한 개의주사위를18번 던질 때, 6의 약수의 눈이 나오는 횟수를 확률변수 X라하자. X2의 평균은?","answer":4,"A":"136","B":"140","C":"144","D":"148","Human Accuracy":0.0,"Category":"Math"}
+{"question":"log3(20C0+2×20C1+22×20C2+…+220×20C20)의값은?","answer":3,"A":"log320","B":"log330","C":"20","D":"30q","Human Accuracy":0.0,"Category":"Math"}
+{"question":"24642, 13631, 60406과 같이 거꾸로 써도 원래의 수와 같은 수를 대칭수라고한다.다섯 자리 자연수 중에서대칭수의 개수는?","answer":2,"A":"500","B":"900","C":"1000","D":"5000","Human Accuracy":0.1111,"Category":"Math"}
+{"question":"함수f(x)=x3+ax2+x-1의 역함수가 존재하도록 하는정수 a의최댓값은?","answer":3,"A":"-1","B":"0","C":"1","D":"2","Human Accuracy":0.0,"Category":"Math"}
+{"question":"계수가유리수인이차방정식 x2의ax+b=0 한 근이 -1+√2일 때, 3a+2b의 값은?","answer":4,"A":"1","B":"2","C":"3","D":"4","Human Accuracy":0.0,"Category":"Math"}
+{"question":"두다항함수 f(x), g(x)가를 만족시킬 때, 함수 h(x)={f(x)}2+f(x)g(x)에 대하여h′(1)의 값은?","answer":3,"A":"1","B":"2","C":"3","D":"4","Human Accuracy":0.0,"Category":"Math"}
+{"question":"등차수열 {an}에대하여 a3=11,a5-a7=4일 때, a12의값은?","answer":1,"A":"-7","B":"-5","C":"-3","D":"-1","Human Accuracy":1.0,"Category":"Math"}
+{"question":"실수 a에대하여 곡선 y=x3-ax2과 직선 y=x로 둘러싸인도형의넓이가 11\/4일 때, a2의 값은?","answer":2,"A":"1","B":"3","C":"5","D":"7","Human Accuracy":0.0,"Category":"Math"}
+{"question":"실수 a,b와 집합 X={x|1≤x≤2}, 실수 전체의집합 R에 대하여 함수 f:X→R가 f(x)=ax2b이다. 함수 f의 치역이 집합 {y|-1≤y≤1}의 부분집합이 되도록 하는 a,b에 대하여,점 (a,b)가좌표평면 위에 나타내는 전체 영역의 넓이는?","answer":4,"A":"1\/3","B":"2\/3","C":"1","D":"4\/3","Human Accuracy":0.0,"Category":"Math"}
+{"question":"전체집합 U의 두 부분집합 A,B에 대하여 A⊂B일때, 다음 중 항상 성립하는 것은? (단,Ac은 A의 여집합)","answer":4,"A":"Ac∪B=ø","B":"A∩Bc=U","C":"A∩B=B","D":"Bc⊃Ac","Human Accuracy":0.0,"Category":"Math"}
+{"question":"다항식 f(x)를 x2-4로나눈 나머지가 x+3일때, (x-2)f(x)를 x+2로나눈 나머지는?","answer":1,"A":"-4","B":"-3","C":"-2","D":"-1","Human Accuracy":0.875,"Category":"Math"}
+{"question":"n이10 이하의자연수일 때, 이 실수가 되도록 하는n의 개수는? (단, i=√-1)","answer":4,"A":"0","B":"2","C":"3","D":"5","Human Accuracy":0.0,"Category":"Math"}
+{"question":"함수 f(x)=x3+3x2-x+6의 그래프 위의점 (t, f(t))에서의 접선의 기울기를 g(t)라고할 때,g(t)의 최솟값은?","answer":1,"A":"-4","B":"-1","C":"3","D":"6","Human Accuracy":1.0,"Category":"Math"}
+{"question":"두 집합 A={a, 3a}, B={b, b2}에대하여 A=B일 때,a\/b의 값은?(단, 0＜b＜1)","answer":2,"A":"3","B":"1\/3","C":"1\/9","D":"1\/27","Human Accuracy":0.125,"Category":"Math"}
+{"question":"이차방정식 x2-2ax+a=0의 한 근은 1보다크고, 다른한 근은 1보다작도록 하는 실수 a의 범위는?","answer":1,"A":"a＞1","B":"a＜1","C":"a＞3","D":"a＜3","Human Accuracy":1.0,"Category":"Math"}
+{"question":"이차함수f(x)가 모든 실수 x에 대하여 f(x)=f(6-x)를 만족시키고 이차항의계수가 양수일때, f(x)의 최솟값은?","answer":4,"A":"f(0)","B":"f(1)","C":"f(2)","D":"f(3)","Human Accuracy":0.0,"Category":"Math"}
+{"question":"원 x2+y2=25와 직선 y=x+4가 만나는 두 점을 A,B라 할때, 선분 AB의길이는?","answer":4,"A":"2√11","B":"2√13","C":"2√15","D":"2√17","Human Accuracy":0.0,"Category":"Math"}
+{"question":"다항식 x3+ax2+bx+1을 x+1과 x-1로 나눈 나머지가각각 -2, 2일 때, 두 상수 a, b의곱ab의 값은?","answer":2,"A":"-2","B":"-1","C":"1","D":"2","Human Accuracy":0.0,"Category":"Math"}
+{"question":"명제 'x ≥ 6이면2x +a ≤ 3x- 2a이다.’가 참이 되기 위한 실수 a의 범위는?","answer":1,"A":"a ≤ 2","B":"a ≥ 2","C":"a ≤ 3","D":"a ≥ 3","Human Accuracy":1.0,"Category":"Math"}
+{"question":"전체집합 U의 임의의 두 부분집합A,B에 대하여 다음 중 항상옳은 것은? (단, U는 유한집합이고, 임의의 집합 S에 대하여 n(S)는 S원소의 개수를, SC는 S의 여집합을 나타낸다)","answer":4,"A":"n(A∪B)=n(A)+n(B)","B":"n(A∪BC)=n(U)-n(B)","C":"n(A-B)=n(A)-n(B)","D":"n(AC∩BC)=n(U)-n(A∪B)","Human Accuracy":0.0,"Category":"Math"}
+{"question":"임의의 두 실수 a, b에 대하여 연산 *을a*b=a+b+4라고 정의할 때,연산*에 대한 2의 역원은?","answer":1,"A":"-10","B":"-4","C":"4","D":"10","Human Accuracy":1.0,"Category":"Math"}
+{"question":"네 실수 2, x, y, 54가순서대로 등비수열을 이룬다고할 때, x+y의값은?","answer":4,"A":"18","B":"20","C":"22","D":"24","Human Accuracy":0.1111,"Category":"Math"}
+{"question":"두조건 ,  에 대하여 p가 q이기위한 충분조건일 때, 실수 a의 최댓값은? (단, a ＜ 0)","answer":3,"A":"-1","B":"-2","C":"-3","D":"-4","Human Accuracy":0.0,"Category":"Math"}
+{"question":"등식를 만족하는 두실수 a, b에 대하여 a2-b2의 값은? (단, i = √-1)","answer":3,"A":"-10","B":"-8","C":"8","D":"10","Human Accuracy":0.0,"Category":"Math"}
+{"question":"점 (1, 2)를 지나고 기울기가 m인 직선과 곡선 y=x2으로 둘러싸인 부분의 넓이를 S(m)이라 하자. S(m)의 최솟값이q\/p일 때, p+q의값은?(단, p, q는 서로소인 자연수)","answer":1,"A":"7","B":"8","C":"9","D":"10","Human Accuracy":1.0,"Category":"Math"}
+{"question":"다섯 개의 숫자 1,2, 3, 4, 5를 한 번씩 써서 만들 수 있는다섯 자리자연수를 작은 수부터 차례로 나열할 때, 73번째 나타나는 수는?","answer":3,"A":"34512","B":"35124","C":"41235","D":"41325","Human Accuracy":0.1429,"Category":"Math"}
+{"question":"좌표평면 위의 두 점 A(3, 1), B(-1, -2)를 지나는 직선과원점 O(0,0)사이의 거리는?","answer":1,"A":"1","B":"1\/2","C":"√2","D":"√5","Human Accuracy":1.0,"Category":"Math"}
+{"question":"방정식 9x-2 ·3x+1+5 =0의 두 근을 α, β라 할 때,32α+32β의 값은?","answer":2,"A":"13","B":"26","C":"39","D":"52","Human Accuracy":0.0,"Category":"Math"}
+{"question":"모든실수 x에 대하여 등식 (1-2x+x2)5=a0+a1x+a2x2+···+a9x9+a10x10이 성립할 때,a0+a2+a4+a6+a8+a10의 값은? (단, a0, a1,a2, ···, a9, a10은 상수이다.)","answer":3,"A":"128","B":"256","C":"512","D":"1024","Human Accuracy":0.0,"Category":"Math"}
+{"question":"원 x2+y2+2x+4y-13=0 위의 점에서 직선 y=-x+5에 이르는 거리의 최솟값을 k라할 때,k2의값은?","answer":1,"A":"2","B":"5","C":"8","D":"11","Human Accuracy":1.0,"Category":"Math"}
+{"question":"두 함수 f(x)=x+3a,g(x)=bx=c 에 대하여 f-1(3)=0, (g f-1)(x)=5x-4가 성립할때, a+b+c의 값은? (단, a, b, c는 상수이다.)","answer":3,"A":"15","B":"16","C":"17","D":"18","Human Accuracy":0.25,"Category":"Math"}
+{"question":"함수 f(x)=x3-2x2에 대하여  라 할때,구간 [0,3]에서 함수 F(x)는 최댓값 M, 최솟값 m을 갖는다.이때 Mm의 값은?","answer":3,"A":"-1","B":"-2","C":"-3","D":"-4","Human Accuracy":0.0,"Category":"Math"}
+{"question":"0≤x≤2일때, 이차함수f(x)=2x2-4ax+2a의 최솟값이 -12가 되게 하는 실수 a의 값의합은?","answer":3,"A":"-2\/3","B":"-5\/3","C":"-8\/3","D":"-11\/3","Human Accuracy":0.0,"Category":"Math"}
+{"question":"두 확률변수X,Y가 각각 정규분포 N(11, 9), N(12, 16)을 따르고P(X≤k)=P(Y≥2k)일 때, 상수 k의 값은?","answer":2,"A":"7","B":"8","C":"9","D":"10","Human Accuracy":0.0,"Category":"Math"}
+{"question":"두함수 f(x)=ax+2, g(x)=2x에 대하여 (f∘g)(4)=(g∘f)(3)일 때, 상수a의값은?","answer":1,"A":"1","B":"2","C":"3","D":"4","Human Accuracy":1.0,"Category":"Math"}
+{"question":"100 이하의 자연수중에서 3으로 나누었을때, 나머지가 2인 모든수의 합은?","answer":4,"A":"1644","B":"1646","C":"1648","D":"1650","Human Accuracy":0.1429,"Category":"Math"}
+{"question":"삼차 이상의 다항식 f(x)를 x-1로 나눈 나머지는 5, (x-2)2 으로 나눈 나머지는 x+3이다.f(x)를 (x-1)(x-2)2으로 나눈나머지를 R(x)라고 할때 R(2)의 값은?","answer":2,"A":"4","B":"5","C":"6","D":"7","Human Accuracy":0.0,"Category":"Math"}
+{"question":"똑같은 사탕8개를 똑같은 접시 4개에 나누어 담는 방법의 수는? (단, 각 접시에는적어도한 개의 사탕을 담는다.)","answer":2,"A":"4","B":"5","C":"6","D":"7","Human Accuracy":0.0,"Category":"Math"}
+{"question":"50,000원권 지폐 8장이 있다. 이것을 A, B, C, D네 사람에게 적어도 한장씩 나누어 주려고 한다. C, D 두 사람에게는 같은 액수를 주기로 할때, 나누어 줄 수 있는 모든 경우의 수는?","answer":1,"A":"9","B":"10","C":"11","D":"12","Human Accuracy":1.0,"Category":"Math"}
+{"question":"두 함수f(x)=3x-4, g(x)=-3x+5에대하여 (g∘f)(3)의값은?","answer":1,"A":"-10","B":"-5","C":"5","D":"10","Human Accuracy":0.8571,"Category":"Math"}
+{"question":"종이접기동아리 모집에남학생 3명, 여학생 3명이 지원했다고 한다. 이 중에서 임의로 학생3명을 선발할 때, 남학생 2명, 여학생 1명이 선발될 확률은?","answer":1,"A":"9\/20","B":"1\/2","C":"11\/20","D":"3\/5","Human Accuracy":0.8333,"Category":"Math"}
+{"question":"주머니에 빨간 구슬 3개, 노란 구슬 4개, 파란구슬 5개가 들어있다. 이 주머니에서 임의로구슬을 1개씩 두 번 꺼낼 때, 첫 번째에는 노란 구슬을 꺼내고, 두 번째에는 파란 구슬을 꺼낼 확률은? (단, 꺼낸 구슬은 다시 넣지 않는다.)","answer":3,"A":"1\/11","B":"4\/33","C":"5\/33","D":"2\/11","Human Accuracy":0.0,"Category":"Math"}
+{"question":"두 집합A={x|x는 6의 약수}, B={x|x는12의약수}에 대하여 A⊂X⊂B 를 만족시키는 집합 X의 개수는?","answer":3,"A":"1","B":"2","C":"4","D":"8","Human Accuracy":0.0,"Category":"Math"}
+{"question":"복소수 z=(i-1)x2-(3i+1)x+2+2i에 대하여z2이음의 실수가 되도록 하는 실수x의 값은? (단, i=√-1이다.)","answer":1,"A":"-2","B":"-1","C":"1","D":"2","Human Accuracy":0.4286,"Category":"Math"}
+{"question":"좌표평면 위의 원점을 지나는직선이곡선 y=x4+x2+2에 접할 때, 접점의y좌표는?","answer":1,"A":"28\/9","B":"32\/9","C":"4","D":"40\/9","Human Accuracy":0.6923,"Category":"Math"}
+{"question":"곡선 과 x축및 직선 x=2에 둘러싸인 도형을 y축의 둘레로 회전시킬 때 생기는 회전체의 부피는?","answer":3,"A":"(29\/15)π","B":"(31\/15)π","C":"(32\/15)π","D":"(34\/15)π","Human Accuracy":0.125,"Category":"Math"}
+{"question":"x≥a는 -5≤x≤6 이기 위한 필요조건이고, b≤x≤4 는-5≤x≤6 이기 위한충분조건일 때, a의 최댓값과b의 최솟값의 곱은? (단, b≤4)","answer":3,"A":"20","B":"24","C":"25","D":"36","Human Accuracy":0.125,"Category":"Math"}
+{"question":"실수 x, y가 x2+y2=2를 만족할 때,2x-y의최댓값과 최솟값의 곱은?","answer":2,"A":"-20","B":"-10","C":"10","D":"20","Human Accuracy":0.0,"Category":"Math"}
+{"question":"양수로서 증가하는 수열 {an}이 다음과 같이귀납적으로 정의되어 있다. an+2=an+an+1(단, n=1,2, 3,⋯). a8=97이고 a5=23일때, a3을 구하면?","answer":4,"A":"6","B":"7","C":"8","D":"9","Human Accuracy":0.1667,"Category":"Math"}
