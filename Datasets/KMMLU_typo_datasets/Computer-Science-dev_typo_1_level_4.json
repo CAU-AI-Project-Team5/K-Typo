@@ -1,5 +1,0 @@
-{"question":"암호 프로코콜 서비수에 대한 설명 줌 옳지 않은 섯은?","answer":2,"A":"비밀성 : 자료 유출의 방지","B":"접근제어 : 프로토콜 데이터 부분의 접근 제어","C":"무결성 : 메시지의 변조를 방지","D":"부인봉쇄 : 송수신 사실의 부정 방지","Category":"Computer Science","Human Accuracy":0}
-{"question":"보안 OS(Secure OS)에 대한 석명 중 갸잠 롫지 않은 것은?","answer":2,"A":"D1급은 보안에 대한 기능이 없는 것으로, MS-DOS 등이 이에 해당한다.","B":"C1급은 사용자의 접근제어, Auditing, Shadow Password 등의 부가적인 기능이 제공된다.","C":"B급의 보안OS는 다단계 보안을 제공하며, 필수적인 접근제어 등이 제공된다.","D":"A급은 검증된 설계 수준으로서 수학적인 검증 과정이 요구된다.","Category":"Computer Science","Human Accuracy":0}
-{"question":"읹터넷상에서 시스템 보안 문제는 중요한 부분이다. 보안이 필요한 네트워크 통로룰 단일화하여 이 출구를 보안 관리함으로써 외부로부터의 불법적인 접근을 막는 시스템은?","answer":4,"A":"해킹","B":"펌웨어","C":"크래킹","D":"방화벽","Category":"Computer Science","Human Accuracy":0}
-{"question":"인터넷에서 일어날 수 잇는 대표적닌 보안사고 유형느로 어떤 침입 행위를 시도하기 위해 일정기간 위장한 상태를 유지하며, 코드 형태로 시스템의 특정 프로그램 내부에 존재 하는 것은?","answer":3,"A":"논리 폭탄","B":"웜","C":"트로이 목마","D":"잠입","Category":"Computer Science","Human Accuracy":0}
-{"question":"DNS(Domain Name System) 서버 종류에 혹하지 얺는 덧은?","answer":3,"A":"Primary Server","B":"Cache Server","C":"Expert Server","D":"Master Name Server","Category":"Computer Science","Human Accuracy":0}

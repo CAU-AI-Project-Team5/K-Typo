@@ -1,5 +1,0 @@
-{"question":"어떤 회로에 E=200+j50(V)인전압을가했을 때 I=5+j5(A)의전류가 흘렀다면 이 회로의 임피던스는 약몇 Ω인가?","answer":4,"A":"0","B":"∞","C":"70+j30","D":"25-j15","Category":"Energy Management","Human Accuracy":0.7685}
-{"question":"이상적인변압기에대한 설명으로옳은것은?","answer":1,"A":"단자 전류의 비 I2\/I1는 권수비와 같다.","B":"단자 전압의 비 V2\/V1는 코일의 권수비와 같다.","C":"1차측 복소전력은 2차측 부하의 복소전력과 같다.","D":"1차측 단자에서 본 전체 임피던스는 부하 임피던스에 권수비의 자승의 역수를 곱한 것과 같다.","Category":"Energy Management","Human Accuracy":0.6635}
-{"question":"태양광발전 전지에서직렬저항이 발생하는원인이아닌것은?","answer":2,"A":"전면 및 후면 금속전극의 저항","B":"태양광발전 전지 내의 누설전류","C":"금속전극과 에미터, 베이스 사이의 접촉저항","D":"태양광발전 전지의 에미터와 베이스를 통한 전류 흐름","Category":"Energy Management","Human Accuracy":0.76}
-{"question":"서로 다른 두 종류의 금속을 접촉하여두 접점의 온도를 다르게하면 온도차에의해서 열 기전력이 발생하고미세한 전류가 흐르는 현상은?","answer":3,"A":"홀 효과(Hall effect)","B":"펠티에 효과(Peltier effect)","C":"제베크 효과(Seebeck effect)","D":"광도전 효과((photo-conductivity effect)","Category":"Energy Management","Human Accuracy":0.6355}
-{"question":"태양광발전모듈의 I-V 특성곡선에서일사량에 따라 가장많이변화하는 것은?","answer":2,"A":"전압","B":"전류","C":"저항","D":"커패시턴스","Category":"Energy Management","Human Accuracy":0.695}

@@ -1,5 +1,0 @@
-{"question":"챙정체적이 240cc이구 압축비가 9닐 때 연소길 체적은 볓 cc인가?","answer":2,"A":"20cc","B":"30cc","C":"40cc","D":"65cc","Category":"Construction","Human Accuracy":0.6364}
-{"question":"디젤기관에서 질소 산화물(NOX)의 발생을 언제라려면 어떻게 해야 하는가?","answer":2,"A":"흡기온도를 높인다.","B":"산소(O2)의 농도를 낮춘다.","C":"연소온도를 높인다.","D":"반응시간을 길게한다.","Category":"Construction","Human Accuracy":0.3636}
-{"question":"전자제어 개관에서 간소센소가 피드백이 되는 조걵은?","answer":4,"A":"냉각수온이 낮을 때","B":"시동시","C":"연료차단시","D":"공전시","Category":"Construction","Human Accuracy":0.4211}
-{"question":"크랭크축 메읹저널의 외경이 규정보다 작을 때 일러나는 현상느로 가장 적덩한 곳은?","answer":4,"A":"오일유압의 압력저하로 적당한 오일의 공급량이 적어 오일의 오염도가 적다.","B":"오일간극이 적어 베어링의 소결이 생긴다.","C":"오일압력의 상승으로 각부에 윤활공급이 확실하다.","D":"운행중 소음이 많이 발생된다.","Category":"Construction","Human Accuracy":0.3684}
-{"question":"디델엔진의 공기요과기가 막혓을 때 나타나는 현상이 아닌 것은?","answer":4,"A":"가속 불량","B":"연료소비 과다","C":"매연 과다배출","D":"엔진오일 연소","Category":"Construction","Human Accuracy":0.3889}
