@@ -5,4 +5,4 @@
 - 2 : drop_jongsung
 - 3 : repeat_char
 - 4 : merge_words
-- 5 : grammar_error
+- 5 : grammar_error / swap_parts
