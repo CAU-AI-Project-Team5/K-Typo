@@ -81,12 +81,28 @@ def introduce_typo_to_char(char):
     except:
         return char
 
-def introduce_typo_to_sentence(text, count=None, ratio=None):
-    indices = get_typo_indices(text, count, ratio, hgtk.checker.is_hangul)
+def introduce_typo_to_sentence(text, count=None, ratio=None, skip_indices=None):
+    if skip_indices is None:
+        skip_indices = set()
+
+    # 새로운 typo를 적용할 수 있는 인덱스 계산
+    def is_valid_char(c):
+        return hgtk.checker.is_hangul(c)
+
+    # skip_indices를 제외한 후보군만 넘김
+    indices = get_typo_indices(
+        text,
+        count,
+        ratio,
+        filter_fn=lambda c: is_valid_char(c)
+    )
+    indices = [i for i in indices if i not in skip_indices]
+
     result = list(text)
     for i in indices:
         result[i] = introduce_typo_to_char(result[i])
-    return ''.join(result)
+    return ''.join(result), indices  # ✅ 적용된 인덱스를 반환하면 이후 level에서도 추적 가능
+
 
 def drop_jongsung_char(char):
     try:
@@ -96,18 +112,39 @@ def drop_jongsung_char(char):
         return char
 
 def drop_jongsung_sentence(text, count=None, ratio=None):
-    indices = get_typo_indices(text, count, ratio, hgtk.checker.is_hangul)
+    # 종성이 있는 한글 음절만 필터링
+    def has_jongsung(c):
+        try:
+            cho, jung, jong = hgtk.letter.decompose(c)
+            return bool(jong)
+        except:
+            return False
+
+    indices = get_typo_indices(text, count, ratio, has_jongsung)
     result = list(text)
     for i in indices:
         result[i] = drop_jongsung_char(result[i])
     return ''.join(result)
 
 def repeat_char_typo_no_space(text, count=None, ratio=None, max_repeat=2):
-    indices = get_typo_indices(text, count, ratio, lambda c: c != ' ')
+    # 조건: 한글이고, 공백 아니고, 기호도 아닌 문자만
+    def is_repeatable_korean_char(c):
+        return hgtk.checker.is_hangul(c) and c not in [':', '.', ',', '?', '!', '-', '—', '~', '…']
+
+    # 반복되는 문자 위치 추출 → 제외
+    repeated_chars = set()
+    for match in re.finditer(r'(.)\1{1,}', text):  # 연속으로 같은 글자가 2번 이상 나올 때
+        repeated_chars.update(match.group(0))  # "ㅋㅋㅋ" → 'ㅋ'을 제외
+
+    def filter_fn(c):
+        return is_repeatable_korean_char(c) and c not in repeated_chars
+
+    indices = get_typo_indices(text, count, ratio, filter_fn)
     result = list(text)
     for i in indices:
         result[i] = result[i] * random.randint(2, max_repeat)
     return ''.join(result)
+
 
 def merge_words_typo(text, count=None, ratio=None):
     indices = get_typo_indices(text, count, ratio, lambda c: c == ' ')
@@ -133,17 +170,21 @@ def grammar_error(text, typo_dict, count=None, ratio=None):
 
 def swap_parts_in_char(char):
     try:
+        # 완성된 한글 음절인지 확인 (예: '강'은 True, 'ㅏ'나 'ㄱ'은 False)
+        if not hgtk.letter.is_complete_syllable(char):
+            return char
+
         cho, jung, jong = hgtk.letter.decompose(char)
-        swap_type = random.choice(['cho_jung', 'jung_jong'])
-        if swap_type == 'cho_jung':
-            swapped = jung + cho + (jong if jong else '')
-            return swapped
-        elif swap_type == 'jung_jong' and jong:
-            swapped = cho + jong + jung
-            return swapped
-        return char
+
+        # 종성이 있으면: cho + jong + jung
+        # 종성이 없으면: jung + cho
+        if jong:
+            return cho + jong + jung
+        else:
+            return jung + cho
     except:
         return char
+
 
 def swap_parts_in_sentence(text, count=None, ratio=None):
     indices = get_typo_indices(text, count, ratio, hgtk.checker.is_hangul)
