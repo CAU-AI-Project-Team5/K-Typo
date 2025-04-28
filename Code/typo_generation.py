@@ -96,7 +96,6 @@ def drop_jongsung_char(char):
         return char
 
 def drop_jongsung_sentence(text, count=None, ratio=None):
-    # 종성이 있는 한글 음절만 필터링
     def has_jongsung(c):
         try:
             cho, jung, jong = hgtk.letter.decompose(c)
@@ -111,7 +110,6 @@ def drop_jongsung_sentence(text, count=None, ratio=None):
     return ''.join(result)
 
 def repeat_char_typo_no_space(text, count=None, ratio=None, max_repeat=2):
-    # 조건: 한글이고, 공백 아니고, 기호도 아닌 문자만
     def is_repeatable_korean_char(c):
         return hgtk.checker.is_hangul(c) and c not in [':', '.', ',', '?', '!', '-', '—', '~', '…']
 
