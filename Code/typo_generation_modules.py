@@ -169,21 +169,14 @@ def grammar_error(text, typo_dict, count=None, ratio=None):
     return text
 
 def swap_parts_in_char(char):
-    try:
-        # 완성된 한글 음절인지 확인 (예: '강'은 True, 'ㅏ'나 'ㄱ'은 False)
-        if not hgtk.letter.is_complete_syllable(char):
-            return char
-
-        cho, jung, jong = hgtk.letter.decompose(char)
-
-        # 종성이 있으면: cho + jong + jung
-        # 종성이 없으면: jung + cho
-        if jong:
-            return cho + jong + jung
-        else:
-            return jung + cho
-    except:
+    if not hgtk.checker.is_hangul(char):
         return char
+
+    cho, jung, jong = hgtk.letter.decompose(char)
+    if jong:
+        return cho + jong + jung
+    else:
+        return jung + cho
 
 
 def swap_parts_in_sentence(text, count=None, ratio=None):
