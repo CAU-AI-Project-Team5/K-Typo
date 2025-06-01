@@ -1,0 +1,272 @@
+{
+  "0": {
+    "topic": "Accounting",
+    "question": "(주)한국은 20× 1년 초에 A사 유통보통 주식 1,000주 가운데 30%에 해당하는 주식을 주 당 ￦2,000에 취득함으로써 A사에 유의적인 영향련을 행사하게 되었다 A사는 20× 1년 9월 말에 1주당 ￦ 50의 현금배당을 선언하고 지급하였으며 , 20× 1년 말에 당기순손실 ￦200,000 을 보고하였다 (주)한국이 20× 1년 말 재무상태표에 표시할  관계기업 투자주식은 ?",
+    "typo_type": 1,
+    "response": ""
+  },
+  "1": {
+    "topic": "Agricultural",
+    "question": "조직배양에 의한 다량 증식에서 변이가 가장 많이 샹기는 배양법은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"샹기는\", \"correction\": \"생기는\"}]"
+  },
+  "2": {
+    "topic": "Aviation",
+    "question": "가스터빈 기관의 안쪽으로 공기가 통과하면서 공기의 압력,온도 및 속도가 변화하는데 압력이 제일 높은 곳응?",
+    "typo_type": 1,
+    "response": "```json\n[{\"type\": \"인접 키보드 오타\", \"error\": \"곳응\", \"correction\": \"곳은\"}]\n```"
+  },
+  "3": {
+    "topic": "Biology",
+    "question": "년속배양(chemostat)의 장점에 대한 설명으로 옳은 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"친습년속\", \"correction\": \"연속\"}]"
+  },
+  "4": {
+    "topic": "Chemical",
+    "question": "수심 20m 지점의 물의 압력은 몇 kgf/cm2인가? (단, 수면에서의 압력은 1atm이자.)",
+    "typo_type": 1,
+    "response": "```json\n[]\n```"
+  },
+  "5": {
+    "topic": "Chemistry",
+    "question": "X선 분광법에 대한 설명으로 틀린 것은?",
+    "typo_type": 1,
+    "response": "```json\n[]\n```"
+  },
+  "6": {
+    "topic": "Civil",
+    "question": "사진의 므기는 23cm×23cm이고 두 사진의 주점기선 길이가 10cm일 때 종중복도는 약 얼마인가?",
+    "typo_type": 1,
+    "response": "```json\n[\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"므기\",\n    \"correction\": \"무게\"\n  },\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"주점기선\",\n    \"correction\": \"주축기선\"\n  },\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"종중복도\",\n    \"correction\": \"종축복도\"\n  }\n]\n```"
+  },
+  "7": {
+    "topic": "Computer",
+    "question": "통신선로랄 공동으로 이용하기 위한 장비는?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"통신선로랄\", \"correction\": \"통신선로를\"}]"
+  },
+  "8": {
+    "topic": "Construction",
+    "question": "시공용 기계기구와 용도가 서로 잘못 짝지어진 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"시공용\", \"correction\": \"기공용\"}]"
+  },
+  "9": {
+    "topic": "Criminal",
+    "question": "면소 판결에 대한 설명으로 옳지 않는 것은?",
+    "typo_type": 1,
+    "response": "```json\n[\n  {\n    \"type\": \"인접 키스트 보드 오타\",\n    \"error\": \"판결\",\n    \"correction\": \"판결\"\n  }\n]\n```\n\n해설: 원문의 '판결'은 정확한 표기로 오타가 없습니다. '판결'과 '판결'은 동일한 단어이므로 수정이 필요하지 않습니다. 이는 사용자가 오타 교정 예시를 요청했으나 실제 오타가 없는 경우에 해당합니다."
+  },
+  "10": {
+    "topic": "Ecology",
+    "question": "유엔환경계획의 환경범주 붕 인간환경 범주에 포함 되지 않는 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"붕\", \"correction\": \"과\"}]"
+  },
+  "11": {
+    "topic": "Economics",
+    "question": "상벖(보험편)에 관한 설명으로 옳은 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"상벖\", \"correction\": \"상품\"}]"
+  },
+  "12": {
+    "topic": "Education",
+    "question": "아동의 인지 발달 과정에 대한 피아제(Piaget)와 비고츠키(Vygotsky) 이론의 차이점으로 옳지 랂은 것은?",
+    "typo_type": 1,
+    "response": "**피아제(Piaget)와 비고츠키(Vygotsky) 이론의 차이점과 흔한 오해**  \n\n피아제는 **개인의 인지 발달**을 생물학적 성숙과 환경 탐색을 통한 **자발적 학습**으로 설명합니다. 그는 인지 단계(감각운동기, 전조작기, 구체적 조작기, 형식적 조작기)를 강조하며, \"발달이 학습을 선행한다\"고 주장했습니다. 예를 들어, 아동은 특정 단계에 도달해야 논리적 사고가 가능하다고 보았습니다.  \n\n반면 비고츠키는 **사회문화적 상호작용**을 핵심으로 삼습니다. 그는 **ZPD(근접 발달 영역)** 개념을 제시하며, 성인이나 유능한 동료의 도움을 받아 학습이 이루어질 때 인지 발달이 촉진된다고 보았습니다. 여기서 \"학습이 발달을 이끈다\"는 점이 피아제와의 핵심 차이입니다. 또한 언어를 사고 발달의 도구로 강조했죠.  \n\n**흔한 오해**는 두 이론의 **발달과 학습의 관계**를 혼동하는 것입니다. 예를 들어, \"비고츠키는 개인의 내적 과정을 무시했다\"는 주장은 잘못되었습니다. 그는 사회적 상호작용이 개인의 내적 사고로 내면화된다고 보았습니다. 또 \"피아제는 사회적 환경을 배제했다\"는 오해도 있는데, 그는 환경과의 상호작용을 강조했지만 사회적 요소보다 개인적 탐구를 더 중시했을 뿐입니다.  \n\n**결론적으로**, 두 이론은 **발달 메커니즘(개인 vs. 사회)**과 **학습-발달 관계(선후관계)**에서 차이를 보이며, 이 둘을 혼동하거나 단순화하는 설명이 주된 오류입니다. 예를 들어, \"비고츠키는 아동의 자율적 탐구를 부정했다\"는 주장은 그의 협력적 학습 모델을 오해한 경우에 해당합니다.  \n\n(총 1,200자 내외)  \n\n---  \n**원문 오타 수정**: \"옳지 랂은\" → \"옳지 않은\" (\"랂\"은 \"않\"의 오타로 추정됩니다)."
+  },
+  "13": {
+    "topic": "Electrical",
+    "question": "3산 권선형 유도전동기의 2차 회로에 저항을 삽입 하는 목적이 아닌 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"산\", \"correction\": \"상\"}]"
+  },
+  "14": {
+    "topic": "Electronics",
+    "question": "전가산기를 반가산기 몇 개와 어떤 논리게이트 몇 개로 구성하는 것이 갸장 적당한가?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"갸장\", \"correction\": \"가장\"}]"
+  },
+  "15": {
+    "topic": "Energy",
+    "question": "보일러 안전저수위는 유리수면셰의 어느 위치와 일치시키는가?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"셰\", \"correction\": \"계\"}]"
+  },
+  "16": {
+    "topic": "Environmental",
+    "question": "초과부과금의 부과대상물질이 아닌 것은?",
+    "typo_type": 1,
+    "response": "[]"
+  },
+  "17": {
+    "topic": "Fashion",
+    "question": "색입체의 구조에 대한 설명 중 틀린 섯은?",
+    "typo_type": 1,
+    "response": "```json\n[{\"type\": \"인접 키보드 오타\", \"error\": \"섯은\", \"correction\": \"것은\"}]\n```"
+  },
+  "18": {
+    "topic": "Food",
+    "question": "스펀지 케이크에서 계란사용량을 감소시킬 때의 조치사항으로 잘못된 것은?",
+    "typo_type": 1,
+    "response": "```json\n[]\n```"
+  },
+  "19": {
+    "topic": "Gas",
+    "question": "터보형 압축기에 대한 설명으로 옳재 않은 것은?",
+    "typo_type": 1,
+    "response": "```json\n[\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"옳재\",\n    \"correction\": \"옳지\"\n  }\n]\n```"
+  },
+  "20": {
+    "topic": "Geomatics",
+    "question": "경계점좌표등록부 시헹지역에서 지적도근점의 측량성과와 검사성과의 연결교차는 허용범위가 얼마 이내일 때 측량성과로 결정할 수 있는가?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"시헹지역\", \"correction\": \"시험지역\"}]"
+  },
+  "21": {
+    "topic": "Health",
+    "question": "보건복지부 소관의 기금이 어닌 것은?",
+    "typo_type": 1,
+    "response": "```json\n[]\n```"
+  },
+  "22": {
+    "topic": "Industrial",
+    "question": "케이블 방송에서 수시한 지상파 방송을 재전송하기 위하여 여러 개의 신호를 하나로 묶는데 사용도는 것은?",
+    "typo_type": 1,
+    "response": "```json\n[\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"케케이블\",\n    \"correction\": \"케이블\"\n  },\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"수시한\",\n    \"correction\": \"수신한\"\n  }\n]\n```"
+  },
+  "23": {
+    "topic": "Information",
+    "question": "스캐너를 이용하여 받아들인 이미지 형태의 문서를 이미지 분석과정을 통하여 뭉자 형태의 문서를 바꾸어 주는 소프트웨어를 무엇이라 하는가?",
+    "typo_type": 1,
+    "response": ""
+  },
+  "24": {
+    "topic": "Interior",
+    "question": "목재 접합부에 사용하는 철물과 철물이 저항하는 응력의 종류가 잘못 연굘된 것은?",
+    "typo_type": 1,
+    "response": "```json\n[\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"연굼된\",\n    \"correction\": \"연결된\"\n  }\n]\n```"
+  },
+  "25": {
+    "topic": "Korean",
+    "question": "밑줄 친 ‘왕’의 재위 기간에 있었던 일로 옳은 것은? 왕은 사벌주를 상주로 바꾸는 등 9주의 명칭을 개정하고, 군현의 이름도 한 자식으로 고쳤다. 또한, 중앙관서의 관직명도 중국의 예에 맟추어 한 자식으로 바꾸었다. －삼국사기－",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"맟추어\", \"correction\": \"맞추어\"}]"
+  },
+  "26": {
+    "topic": "Law",
+    "question": "헌법개정 절차레 관한 설명으로 옳지 않은 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"절차레\", \"correction\": \"절차에\"}]"
+  },
+  "27": {
+    "topic": "Machine",
+    "question": "효율적인 설비관리를 하기위하여 설비대정을 작성하고 개개의 설비에 고유번호를 부착하고자 한다. 적절하지 않은 것은?",
+    "typo_type": 1,
+    "response": ""
+  },
+  "28": {
+    "topic": "Management",
+    "question": "실험의 배치에 관한 설명으로 틀린 것은?",
+    "typo_type": 1,
+    "response": "```json\n[\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"티른\",\n    \"correction\": \"틀린\"\n  }\n]\n```"
+  },
+  "29": {
+    "topic": "Maritime",
+    "question": "휨부재에서 서로 접촉되지 않게 겹침이음된 철근은 횡방향으로 소요 겹침이음길이의 얼마 또는 150㎜ 중 작은 값 이상 떨어지지 않아야 라는가?",
+    "typo_type": 1,
+    "response": "```json\n[]\n```"
+  },
+  "30": {
+    "topic": "Marketing",
+    "question": "고객의 이익 극대화와 이를 통해 기업의 수익성을 극대화차는 것이 CRM의 목적이다. CRM의 목적 달성을 위한 CRM의 특성이 아닌 것은?",
+    "typo_type": 1,
+    "response": "```json\n[]\n```"
+  },
+  "31": {
+    "topic": "Materials",
+    "question": "합금원소가 주철에 미치는 영향을 석명한 것 중 틀린 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"석명한\", \"correction\": \"설명한\"}]"
+  },
+  "32": {
+    "topic": "Math",
+    "question": "이차함수 y=x2+ax+b의 그래프와 직선 y=2x+3의 두 교점의 x좌표가 각각 1,5일 때, a+2b의 값는? (단, a, b는 상수)",
+    "typo_type": 1,
+    "response": ""
+  },
+  "33": {
+    "topic": "Mechanical",
+    "question": "웨버수가 나타내능 물리적 의미는?",
+    "typo_type": 1,
+    "response": "The square of the wave function, denoted as **|ψ|²**, represents the **probability density** of finding a particle in a specific location when measured. Here's a concise breakdown:\n\n1. **Physical Meaning**:  \n   - |ψ|² gives the likelihood (per unit volume) of detecting a particle at a particular position in space. For example, in an atom, it describes where an electron is most likely to be found.\n\n2. **Mathematical Context**:  \n   - Since the wave function (ψ) is a complex-valued function, its square is calculated as the **absolute value squared** (|ψ|² = ψ*ψ, where ψ* is the complex conjugate). This ensures the result is a real, non-negative number, suitable for representing probability.\n\n3. **Normalization**:  \n   - The total integral of |ψ|² over all space equals 1, ensuring the total probability of finding the particle is 100%.\n\n4. **Example**:  \n   - In the double-slit experiment, the interference pattern observed on the screen corresponds to the probability density |ψ|², showing regions where particles are more or less likely to land.\n\n5. **Interpretation**:  \n   - According to the **Born rule**, |ψ|² bridges quantum mathematics with observable outcomes. When a measurement occurs, the wave function \"collapses\" to a state corresponding to the measured value, with probabilities dictated by |ψ|².\n\nIn short: **|ψ|² quantifies where a quantum particle is likely to be observed, making it the link between abstract theory and physical reality.**"
+  },
+  "34": {
+    "topic": "Nondestructive",
+    "question": "대형 구조물의 용접부를 극간법으로 자분탐상하는 경우 일반적으로 직류보다 교유가 좋은 이유는?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"교유\", \"correction\": \"교류\"}]"
+  },
+  "35": {
+    "topic": "Patent",
+    "question": "민법 제104조의 불공정한 법률행위에 관한 설명으로 옳은 것은? (다툼이 있으년 판례에 따름)",
+    "typo_type": 1,
+    "response": ""
+  },
+  "36": {
+    "topic": "Political",
+    "question": "생태학적 공간구조 이론네 해당하지 않는 것은?",
+    "typo_type": 1,
+    "response": "[\n    {\"type\": \"인접 키보드 오타\", \"error\": \"공간구조\", \"correction\": \"공간 구조\"}\n]"
+  },
+  "37": {
+    "topic": "Psychology",
+    "question": "Lofquist와 Dawis의 직업적응 이론에 나로는 4가지 성격양식 차원에 해당하지 않는 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"나로는\", \"correction\": \"다른\"}]"
+  },
+  "38": {
+    "topic": "Public",
+    "question": "이산화탕소 약제에 의한 소화가 부적합한 장소는 어느 것인가?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"탕소\", \"correction\": \"탄소\"}]"
+  },
+  "39": {
+    "topic": "Railway",
+    "question": "전자제어 현가장치 작덩을 위한 압력 센서가 아닌 것은?",
+    "typo_type": 1,
+    "response": ""
+  },
+  "40": {
+    "topic": "Real",
+    "question": "합동사무소에 관한 설명우로 옳은 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"설명우로\", \"correction\": \"설명으로\"}]"
+  },
+  "41": {
+    "topic": "Refrigerating",
+    "question": "카흐노사이클을 옳게 설명한 것은?",
+    "typo_type": 1,
+    "response": "```json\n[\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"카흐노사이클\",\n    \"correction\": \"카르노사이클\"\n  }\n]\n```"
+  },
+  "42": {
+    "topic": "Social",
+    "question": "다른 변수들의 상관관계를 통제하고 순수하게 두 변수간의 상관관계을 나타내는 것은?",
+    "typo_type": 1,
+    "response": "[]"
+  },
+  "43": {
+    "topic": "Taxation",
+    "question": "법인세 법령상 건설자금에 충당한 차입금의 이자에 대한 설명으오 옳지 않은 것은?",
+    "typo_type": 1,
+    "response": "[{\"type\": \"인접 키보드 오타\", \"error\": \"설명으오\", \"correction\": \"설명으로\"}]"
+  },
+  "44": {
+    "topic": "Telecommunications",
+    "question": "집적회로(IC)에서 고주파 특성음 제한하는 요인은 ?",
+    "typo_type": 1,
+    "response": "[\n  {\n    \"type\": \"인접 키보드 오타\",\n    \"error\": \"집적회로\",\n    \"correction\": \"집적회로\"\n  }\n]\n\n**Explanation:**  \n원문에서 '집적회로'는 정확한 표기입니다. '집적회로'와 '집적회로'의 키보드 배열을 분석하면 ㅈ-ㅈ, ㅣ-ㅣ, ㅂ-ㅍ, ㅈ-ㅈ, ㅓ-ㅓ, ㄹ-ㄹ, ㅗ-ㅗ로 구성되어 있습니다. ㅂ(비음)과 ㅍ(파열음)은 서로 다른 자음이지만 키보드 상에서 인접하지 않습니다(QWERTY 기준 ㅂ은 'q', ㅍ은 'v'). 따라서 이 경우 실제 오타가 존재하지 않으며, 원문이 정확한 표현입니다."
+  }
+}
