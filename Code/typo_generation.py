@@ -44,23 +44,23 @@ typo_dict = {
 
 def get_typo_indices(text, count=None, ratio=None, filter_fn=lambda c: True):
     """
-    ratio로 들어와도 count로 환산하고,
-    filter_fn에 맞는 문자 인덱스 중 max count만큼 뽑아서 반환.
+    filter_fn에 맞는 문자 인덱스 중 count 또는 ratio만큼 무작위로 추출.
     """
-    # 공백 포함한 전체 길이 기준으로 count 계산
-    if count is None and ratio is not None:
-        count = max(1, int(len(text) * ratio))
-    elif count is None:
-        count = 0
-
     # 오타를 적용할 수 있는 문자 인덱스만 추림
     valid_indices = [i for i, c in enumerate(text) if filter_fn(c)]
     if not valid_indices:
         return []
 
+    # count가 주어지지 않았고 ratio가 있으면 그 기준으로 count 계산
+    if count is None and ratio is not None:
+        count = max(1, int(len(valid_indices) * ratio))
+    elif count is None:
+        count = 0
+
     # count가 인덱스 수보다 많으면 가능한 만큼만
     selected_count = min(count, len(valid_indices))
     return random.sample(valid_indices, selected_count)
+
 
 
 # ========================================
@@ -81,12 +81,16 @@ def introduce_typo_to_char(char):
     except:
         return char
 
-def introduce_typo_to_sentence(text, count=None, ratio=None):
-    indices = get_typo_indices(text, count, ratio, hgtk.checker.is_hangul)
+# ✅ 수정: skip_indices는 무시하고, string만 반환!
+def introduce_typo_to_sentence(text, count=None, ratio=None, skip_indices=None):
+    def is_valid_char(c):
+        return hgtk.checker.is_hangul(c)
+
+    indices = get_typo_indices(text, count, ratio, filter_fn=lambda c: is_valid_char(c))
     result = list(text)
     for i in indices:
         result[i] = introduce_typo_to_char(result[i])
-    return ''.join(result)
+    return ''.join(result)  # ✅ string만 반환
 
 def drop_jongsung_char(char):
     try:
@@ -96,6 +100,7 @@ def drop_jongsung_char(char):
         return char
 
 def drop_jongsung_sentence(text, count=None, ratio=None):
+    # 종성이 있는 한글 음절만 필터링
     def has_jongsung(c):
         try:
             cho, jung, jong = hgtk.letter.decompose(c)
@@ -109,14 +114,56 @@ def drop_jongsung_sentence(text, count=None, ratio=None):
         result[i] = drop_jongsung_char(result[i])
     return ''.join(result)
 
-def repeat_char_typo_no_space(text, count=None, ratio=None, max_repeat=2):
-    def is_repeatable_korean_char(c):
-        return hgtk.checker.is_hangul(c) and c not in [':', '.', ',', '?', '!', '-', '—', '~', '…']
+def jamo_repeat_typo_mixed(text, count=1, max_repeat=1):
+    """
+    • 완성형 한글 음절(가–힣)만 골라서 초/중/종성 중 하나를 딱 하나만 복제
+    • 이미 분리된 자모(ㄱ,ㅏ 등)는 건너뜀
+    """
+    def is_complete_syllable(c):
+        return hgtk.checker.is_hangul(c) and not hgtk.checker.is_jamo(c)
 
-    indices = get_typo_indices(text, count, ratio, is_repeatable_korean_char)
-    result = list(text)
-    for i in indices:
-        result[i] = result[i] * random.randint(2, max_repeat)
+    chars = list(text)
+    valid_indices = [i for i, c in enumerate(chars) if is_complete_syllable(c)]
+    if not valid_indices:
+        return text
+
+    indices = random.sample(valid_indices, min(count, len(valid_indices)))
+    result = []
+
+    for i, c in enumerate(chars):
+        if i in indices:
+            try:
+                cho, jung, jong = hgtk.letter.decompose(c)
+            except hgtk.exception.NotHangulException:
+                result.append(c)
+                continue
+
+            n = 1
+            choice = random.choice(['초', '중', '종'])
+
+            if choice == '초':
+                # '한' → cho='ㅎ' → "ㅎ한"
+                new_seq = cho * n + c
+
+            elif choice == '중':
+                # '한' → cho='ㅎ', jung='ㅏ', jong='ㄴ'
+                #   compose(cho, jung, '') = '하'
+                # → '하' + jung*n + jong = "하ㅏㄴ"
+                base = hgtk.letter.compose(cho, jung, '')
+                new_seq = base + (jung * n) + (jong if jong else '')
+
+            elif choice == '종' and jong:
+                # '한' → jong='ㄴ' → "한ㄴ"
+                new_seq = c + jong * n
+
+            else:
+                # 종성이 없거나 예외인 경우(예: '오') → 원래 그대로
+                new_seq = c
+
+            result.append(new_seq)
+        else:
+            result.append(c)
+
     return ''.join(result)
 
 def merge_words_typo(text, count=None, ratio=None):
@@ -142,18 +189,26 @@ def grammar_error(text, typo_dict, count=None, ratio=None):
     return text
 
 def swap_parts_in_char(char):
-    try:
-        cho, jung, jong = hgtk.letter.decompose(char)
-        if jong:
-            return cho + jong + jung
-        else:
-            return jung + cho
-    except:
+    if not hgtk.checker.is_hangul(char):
         return char
 
+    cho, jung, jong = hgtk.letter.decompose(char)
+    if jong:
+        return cho + jong + jung
+    else:
+        return jung + cho
+
+
 def swap_parts_in_sentence(text, count=None, ratio=None):
-    indices = get_typo_indices(text, count, ratio, hgtk.checker.is_hangul)
+    indices = get_typo_indices(text, count*2, ratio, hgtk.checker.is_hangul)  # 넉넉하게 뽑아
     result = list(text)
+    applied = 0
     for i in indices:
-        result[i] = swap_parts_in_char(result[i])
+        old_char = result[i]
+        new_char = swap_parts_in_char(result[i])
+        if new_char != old_char:
+            result[i] = new_char
+            applied += 1
+            if applied >= count:
+                break
     return ''.join(result)
